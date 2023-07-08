@@ -8,11 +8,12 @@ module "repository" {
   source = "git::https://github.com/mateusz-uminski/terraform-service-modules//github-repository?ref=main"
 
   # required variables
-  name                 = "my-repo"
+  name = "my-repo"
 
   # optional variables
-  protected_branch     = "main"
-  visibility           = "public"
+  visibility             = "public"
+  license                = "mit"
+  protected_branch       = "main"
   required_status_checks = ["check1", "check2"]
 }
 ```
