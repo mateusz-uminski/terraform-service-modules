@@ -8,3 +8,9 @@ Each module contains its own README file with a brief description. Further detai
 <br><br>
 Feel free to explore and utilize any content you find useful.
 Enjoy!
+
+## Module naming convention
+The name of each module should start with the name of the service it is designed for. For instance:
+- Modules related to github should have the prefix `github-`
+- Modules related to grafana should have the prefix `grafana-`
+- Modules related to hashicorp consul should have the prefix `consul-`
