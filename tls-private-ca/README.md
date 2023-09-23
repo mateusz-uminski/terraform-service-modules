@@ -9,7 +9,7 @@ module "ca" {
 
   # required variables
   organization_name = "microcloud"
-  domain_name       = "ew1.sbx.vpn.microcloud.com"
+  domain_name       = "shared.corp.microcloud.com"
 
   # optional variables
   key_size = 2048
@@ -21,6 +21,6 @@ module "ca" {
     "client_auth",
   ]
 
-  save_to_file = true
+  save_to_pem_files = true
 }
 ```
