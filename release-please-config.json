@@ -1,4 +1,10 @@
 {
   "separate-pull-requests": true,
-  "packages": {}
+
+  "packages": {
+    "github-repository": {
+      "release-type": "terraform-module",
+      "component": "github-repository"
+    }
+  }
 }
