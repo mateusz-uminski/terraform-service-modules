@@ -5,6 +5,10 @@
     "github-repository": {
       "release-type": "terraform-module",
       "component": "github-repository"
+    },
+    "tls-private-ca": {
+      "release-type": "terraform-module",
+      "component": "tls-private-ca"
     }
   }
 }
